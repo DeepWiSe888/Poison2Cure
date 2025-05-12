@@ -366,7 +366,7 @@ for epoch in range(FT_epoch):  # number of epochs
             real_result.extend(labels_real.data.cpu().numpy())
         scipy.io.savemat(SAVE_PATH + '/FT_source_pre_result.mat', {'pre_result': pre_result})
         scipy.io.savemat(SAVE_PATH + '/FT_real_source_result.mat', {'real_result': real_result})
-        FT_source_info = f'FT Epoch [{epoch + 1}/{max_epoch}] Test accuracy of source domain: {100 * correct / total:.4f}%'
+        FT_source_info = f'FT Epoch [{epoch + 1}/{FT_epoch}] Test accuracy of source domain: {100 * correct / total:.4f}%'
         print(FT_source_info)
         logger_FT.info(FT_source_info)
 
