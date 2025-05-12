@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c0711bfd-942d-42cf-bcb8-0c16bc6ccfe6" name="GRU_demo">
+        <fileTransfer rootFolder="/home/lixin/PythonCode/P2C_demo/GRU_classifier" accessType="SFTP" host="10.96.180.91" port="22" sshConfigId="b96feaa2-b4f3-4a95-9946-328535d02f63" sshConfig="lixin@10.96.180.91:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
