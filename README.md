@@ -1,6 +1,6 @@
 # Poison to Cure: Privacy-preserving Wi-Fi Multi-User Sensing via Data Poisoning
 
-Welcome to Poison2Cure! This repository contains the resource code to implement Poison2Cure system.
+Welcome to Poison2Cure! This repository contains the resource code to implement Poison2Cure system (MobiCom'25).
 
 
 ## Contents
