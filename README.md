@@ -22,9 +22,13 @@ Poison2Cure (P2C) is the first semantic-level privacy-preserving framework for W
 
 ### Environment and Hardware (optional)
 Ubuntu 22.04.2 LTS
+
 5.15.0-94-generic kernel
+
 Python 3.8.16
-CUDA Version: 11.7.
+
+CUDA Version: 11.7
+
 NVIDIA RTX A5000
 
 
